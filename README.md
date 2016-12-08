@@ -42,3 +42,4 @@ The welcome screen lets the user select a genre of music of their liking (e.g.: 
   <li>The HTML5 audio tag is used for controlling the music. You will need to add background music and sound effects in the "sounds"        folder.</li>
 </ul>
 <img src="Img2.jpg" alt="Image 4"/>
+We hope that everyone will have an enjoyable experience using our musical drawing board! Here's a link to the Video tutorial:
