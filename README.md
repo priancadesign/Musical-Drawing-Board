@@ -5,7 +5,9 @@ This tutorial explains how to create a musical stamp drawing board using Makey M
 There are rubber stamps with different shapes connected to the alphabet keys on the circuit board. Each stamp has a sound effect attached to it. On stamping the paper, the sound effects connected to the stamp are played and animated artworks are displayed on the computer screen simultaneously.
 
 The welcome screen lets the user select a genre of music of their liking (e.g.: pop, rock, country, etc.). Based on the genre selected, the screen will play a background music and each stamp will play a unique musical note when stamped on paper. The same stamp shape will be converted to an animation on screen and will appear on the digital artboard.
-
+<div>
+<img src="Img1.jpg" alt="Image 1" style="position:absolute;display:inline;width:115px;height:115px;" />
+</div>
 <h3>Here’s What You Will Need:</h3>
 <ul>
   <li>Makey Makey Kit</li>
@@ -28,7 +30,10 @@ The welcome screen lets the user select a genre of music of their liking (e.g.: 
   <li>Open the welcome screen (index.html) and select a genre of music of your choice. </li>
   <li>Take any stamp, stamp it on the color pad and then stamp it on the paper.</li>
 </ol>
-
+<h3>Makey Makey Board Connection:</h3>
+<img src="Img3.jpg" alt="Image 2"/>
+<h3>The Interface:</h3>
+<img src="Img4.jpg" alt="Image 3"/>
 <h3>The Code:</h3>
 <ul>
   <li>The index.html is the Welcome screen which allows the user to select a genre of music of their liking. Once the genre is selected,    a page with the selected music type is loaded and the selected music will start playing in the background.</li>
@@ -36,3 +41,4 @@ The welcome screen lets the user select a genre of music of their liking (e.g.: 
   <li>All the keypress events have assigned CSS animations in the CSS file.</li>
   <li>The HTML5 audio tag is used for controlling the music. You will need to add background music and sound effects in the "sounds"        folder.</li>
 </ul>
+<img src="Img2.jpg" alt="Image 4"/>
