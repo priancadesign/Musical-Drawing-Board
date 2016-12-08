@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stamp Music- Dubstep</title>
+    <meta name="viewport" content="width=device-width">
+    <link href="_css/main.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+	<audio id="bgMusic">
+  		<source src='sound/dubstep.mp3' type="audio/mp3">		
+	</audio>
+	<script>
+		document.getElementById('bgMusic').play();
+		document.getElementById('bgMusic').volume = 0.05;
+		// 	//document.getElementById('cupcakeMusic').volume = 5;
+	</script>
+	<div id="wrapper">
+		
+		<div class="sketchBook">
+			<div id="sketch">
+			</div>
+		</div>
+		<!-- hamburger -->
+		<!-- http://codepen.io/evg_/pen/JXpEYz -->
+
+			<nav class="menu2">
+			  <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+			  <label class="menu-open-button" for="menu-open">
+			    <span class="hamburger hamburger-1"></span>
+			    <span class="hamburger hamburger-2"></span>
+			    <span class="hamburger hamburger-3"></span>
+			  </label>
+
+			  <a href="classical.html" class="menu-item">classical</a>
+			  <a href="dubstep.html" class="menu-item">dubstep</a>
+			  <a href="jazz.html" class="menu-item">jazz</a>
+			  <a href="pop.html" class="menu-item">pop</a>
+			  <a href="rock.html" class="menu-item">rock</a>
+
+
+			</nav>
+
+		<!-- hamburger end -->
+
+		<!-- stamps ------>	
+		<section id="stamps">
+			<div id="cupcake" class="stamp s_cupCake">
+				<audio id="cupcakeMusic">
+  					<source src='sound/dubstep_effect1.mp3' type="audio/mp3">		
+				</audio>
+				<script>
+					document.getElementById('cupcakeMusic').volume = 5;
+				</script>
+			</div>
+			<div id="star" class="stamp s_star">
+				<audio id="starMusic">
+  					<source src='sound/scratch.mp3' type="audio/mp3">		
+				</audio>
+			</div>
+			<div id="ball" class="stamp s_ball">
+				<audio id="ballMusic">
+  					<source src='sound/dubstep_effect2.wav' type="audio/wav">		
+				</audio>
+				<script>
+					document.getElementById('ballMusic').volume = 5;
+				</script>
+			</div>
+			<div id="lion" class="stamp s_lion">
+				<audio id="lionMusic">
+  					<source src='sound/dubstep_effect3.wav' type="audio/wav">		
+				</audio>
+				<script>
+					document.getElementById('lionMusic').volume = 5;
+				</script>
+			</div>
+			<div id="rainbow" class="stamp s_rainbow">
+				<audio id="rainbowMusic">
+  					<source src='sound/dubstep_effect4.wav' type="audio/wav">		
+				</audio>
+				<script>
+					document.getElementById('rainbowMusic').volume = 5;
+				</script>
+			</div>
+			<div id="candy" class="stamp s_candy">
+				<audio id="candyMusic">
+  					<source src='sound/dubby1.wav' type="audio/wav">		
+				</audio>
+			</div>
+			<div id="elephant" class="stamp margin_end s_elephant">
+				<audio id="elephantMusic">
+  					<source src='sound/beats3.mp3' type="audio/mp3">		
+				</audio>
+			</div>
+		</section>
+
+
+<!-------------absolute items ---->
+	    <div class="logo">
+		</div>
+		<div class="coffee">
+		</div>
+		<div class="sticker">
+		</div>
+		<div class="tag">
+		</div>
+
+
+	</div>
+	<script src="_js/keyboard.js"></script>
+
+</body>
+
+</html>
