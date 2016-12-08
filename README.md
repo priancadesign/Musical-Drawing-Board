@@ -46,4 +46,4 @@ The welcome screen lets the user select a genre of music of their liking (e.g.: 
 
 
 We hope that everyone will have an enjoyable experience using our musical drawing board! Here's a link to the Video tutorial:
-
+https://www.youtube.com/watch?v=i91kNjsdlbU&feature=youtu.be
