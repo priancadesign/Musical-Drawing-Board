@@ -1,13 +1,14 @@
 # Musical-Drawing-Board
+
 <h3>Introduction</h3>
 This tutorial explains how to create a musical stamp drawing board using Makey Makey. The idea behind this project was to create a fun way for people to express their creative ingenuities. People can use our drawing board to simultaneously create a unique amalgamation of art and music that is not only a fun way to express yourself but is also a great artistic experience.
 
 There are rubber stamps with different shapes connected to the alphabet keys on the circuit board. Each stamp has a sound effect attached to it. On stamping the paper, the sound effects connected to the stamp are played and animated artworks are displayed on the computer screen simultaneously.
 
 The welcome screen lets the user select a genre of music of their liking (e.g.: pop, rock, country, etc.). Based on the genre selected, the screen will play a background music and each stamp will play a unique musical note when stamped on paper. The same stamp shape will be converted to an animation on screen and will appear on the digital artboard.
-<div>
-<img src="images/Img1.jpg" alt="Image 1" style="position:absolute;display:inline;width:115px;height:115px;" />
-</div>
+
+<img src="images/Img1.jpg" alt="Image 1"/>
+
 <h3>Here’s What You Will Need:</h3>
 <ul>
   <li>Makey Makey Kit</li>
@@ -42,4 +43,7 @@ The welcome screen lets the user select a genre of music of their liking (e.g.: 
   <li>The HTML5 audio tag is used for controlling the music. You will need to add background music and sound effects in the "sounds"        folder.</li>
 </ul>
 <img src="images/Img2.jpg" alt="Image 4"/>
+
+
 We hope that everyone will have an enjoyable experience using our musical drawing board! Here's a link to the Video tutorial:
+
